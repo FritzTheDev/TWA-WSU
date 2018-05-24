@@ -1,0 +1,17 @@
+{
+  "name": "twa-wsu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "form-data": "^2.3.2",
+    "lazy": "^1.0.11",
+    "moment": "^2.22.1",
+    "request": "^2.87.0"
+  }
+}
