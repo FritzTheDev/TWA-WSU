@@ -1,0 +1,16 @@
+http://136.200.243.170/swp/operationscontrol/docs/storsanl.pdf San-Luis-Reservoir-Storage-Shares
+http://cdec.water.ca.gov/cgi-progs/products/swccond.pdf Statewide-Summary-Of-Snow-Water-Content
+http://cdec.water.ca.gov/cgi-progs/products/PLOT_SWC.pdf California-Snow-Water-Plot
+http://cdec.water.ca.gov/cgi-progs/products/QPF.pdf Feather-Basin-QPF
+http://cdec.water.ca.gov/cgi-progs/products/PLOT_TSI.pdf Tulare-Lake-Precip
+http://cdec.water.ca.gov/cgi-progs/products/rescond.pdf All-Reservoir-Conditions
+https://cdec.water.ca.gov/cgi-progs/products/floodcontrol.pdf Flood-Control-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/snlres.pdf San-Luis-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/shares.pdf Shasta-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/orores.pdf Lake-Oroville-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/trires.pdf Trinity-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/milres.pdf Millerton-Lake-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/nmlres.pdf New-Melones-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/folres.pdf Folsom-Lake-Reservoir-Conditions
+http://cdec.water.ca.gov/cgi-progs/products/PLOT_FSI.pdf San-Joaquin-Precip
+http://cdec.water.ca.gov/cgi-progs/products/PLOT_ESI.pdf North-Sierra-Precip

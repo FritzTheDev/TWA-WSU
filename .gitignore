@@ -1,4 +1,3 @@
 node_modules
-pdfUrls.txt
-temp
+temp/*
 public/documents.zip
