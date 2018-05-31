@@ -14,7 +14,9 @@ module.exports.getUrls = () => {
     fs.readFile(filename, 'utf8', (err, data) => {
         const lineSplit = data.toString().split('\n')
         lineSplitFix = lineSplit.map(x => x.replace(/[\n\r]+/g, ''));
-        fs.mkdirSync(`./temp/${today}`);
+        if (!fs.existsSync(`./temp/${today}`)) {
+            fs.mkdirSync(`./temp/${today}`);
+        }
         console.log(lineSplitFix);
         lineSplitFix.forEach((line) => {
             getPdf(line);

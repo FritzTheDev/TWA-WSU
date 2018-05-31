@@ -4,9 +4,9 @@ module.exports.zipPdfs = () => {
     const moment = require('moment');
 
     const today = moment().format('MMM-DD-YY');
-    const inputPath = './temp/' + today + '/';
+    const inputPath = './temp/' + today;
 
-    const output = fs.createWriteStream(__dirname + '/public/' + today + ' Documents.zip');
+    const output = fs.createWriteStream(__dirname + '/public/' + 'Documents.zip');
     const archive = archiver('zip', {
         zlib: { level: 9 }
     });
@@ -17,8 +17,6 @@ module.exports.zipPdfs = () => {
     });
 
     archive.pipe(output);
-    // fs.readdirSync( './temp/' + today)
-    archive.file(inputPath + 'North-Sierra-Precip.pdf', {name: 'North-Sierra-Precip.pdf'});
-
+    archive.directory(inputPath, false)
     archive.finalize();
 }
