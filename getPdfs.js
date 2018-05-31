@@ -7,18 +7,17 @@ const today = moment().format('MMM-DD-YY');
 
 function getPdf(urlAndLabel) {
     const splitData = urlAndLabel.split(' ');
-    request(splitData[0]).pipe(fs.createWriteStream('./pdfs/'+ today + '/' + splitData[1] +'.pdf'));
+    request(splitData[0]).pipe(fs.createWriteStream('./temp/'+ today + '/' + splitData[1] +'.pdf'));
 };
 
-function getUrls() {
+module.exports.getUrls = () => {
     fs.readFile(filename, 'utf8', (err, data) => {
         const lineSplit = data.toString().split('\n')
         lineSplitFix = lineSplit.map(x => x.replace(/[\n\r]+/g, ''));
-        fs.mkdirSync(`./pdfs/${today}`);
+        fs.mkdirSync(`./temp/${today}`);
         console.log(lineSplitFix);
         lineSplitFix.forEach((line) => {
             getPdf(line);
         });
     });
 };
-getUrls();
