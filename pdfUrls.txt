@@ -1,4 +1,4 @@
-http://136.200.243.170/swp/operationscontrol/docs/storsanl.pdf 1-San-Luis-Reservoir-Storage-Shares
+https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/State-Water-Project/Operations-And-Maintenance/Files/Operations-Control-Office/Project-Wide-Operations/San-Luis-Weekly-Reservoir-Storage-Chart.pdf?la=en&hash=8D8540CC235C213FD1DA5371CFECCD0B30BC310B 1-San-Luis-Reservoir-Storage-Shares
 http://cdec.water.ca.gov/cgi-progs/products/swccond.pdf 2-Statewide-Summary-Of-Snow-Water-Content
 http://cdec.water.ca.gov/cgi-progs/products/PLOT_SWC.pdf 3-California-Snow-Water-Plot
 http://cdec.water.ca.gov/cgi-progs/products/PLOT_ESI.pdf 4-North-Sierra-Precip
